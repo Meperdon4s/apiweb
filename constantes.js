@@ -1,8 +1,9 @@
 const DB_USER="danycambrano1";
-const DB_PASSWORD="qNaV44BL2v88J9Jj";
-const DB_HOST="resttop.3pzgx92.mongodb.net";
-const DB_NAME="webproyect";
+const DB_PASSWORD="ZvNIBIvKmk5RmjxD";
+const DB_HOST="productos.obvqzpn.mongodb.net";
+const DB_NAME="product";
 
+//const IP_SERVER="187.154.139.32";
 const IP_SERVER="127.0.0.1";
 
 JWT_SECRET_KEY="palabrasecreta";
