@@ -1,0 +1,14 @@
+const mongoose=require("mongoose")
+const { Schema } = mongoose;
+
+const comentario=mongoose.Schema(
+    {
+        autor:{type: Schema.Types.ObjectId, ref:"User"},
+        articulo:{type: Schema.Types.ObjectId, ref:"Articulo"},
+        contenido:String,
+        calificacion:{type:Number, default:0},
+        fecha:Date
+    }
+);
+
+module.exports= mongoose.model("Comentario", comentario)

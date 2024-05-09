@@ -45,11 +45,9 @@ async function getUsers(req,res){
     let response=null;
 
     try {
-        if(active===undefined){
-            response=await User.find();
-        }else{
-            response=await User.find({active});
-        }
+        
+        response=await User.find({active:true}).populate("articulo");
+        
 
         res.status(200).send(response);
     } catch (error) {

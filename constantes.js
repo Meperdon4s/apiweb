@@ -1,7 +1,7 @@
-const DB_USER="danycambrano1";
-const DB_PASSWORD="ZvNIBIvKmk5RmjxD";
-const DB_HOST="productos.obvqzpn.mongodb.net";
-const DB_NAME="product";
+const DB_USER="rafaguzman";
+const DB_PASSWORD="VthMC4E8f8IT33Nq";
+const DB_HOST="cluster0.gvqmluk.mongodb.net";
+const DB_NAME="webproyect";
 
 //const IP_SERVER="187.154.139.32";
 const IP_SERVER="127.0.0.1";

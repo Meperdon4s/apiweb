@@ -7,10 +7,10 @@ const app=require("./app");
 
 //Conexion con la bd
 
-//const dbURL=`mongodb://${IP_SERVER}:${DB_HOST}/${DB_NAME}`;
+const dbURL=`mongodb://${IP_SERVER}:27017/${DB_NAME}`;
 //const dbURL=`mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`;
 
-const dbURL=`mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`
+//const dbURL=`mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`
 const PORT= process.env.PORT || 4000;
 
 mongoose.connect(dbURL)
